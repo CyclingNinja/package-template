@@ -35,14 +35,14 @@ copyright = f"{datetime.datetime.now().year}, {author}"  # noqa: A001
 # ones.
 extensions = [
     "sphinx.ext.autodoc",
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.todo",
     "sphinx.ext.coverage",
-    "sphinx.ext.inheritance_diagram",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.napoleon",
     "sphinx.ext.doctest",
+    "sphinx.ext.inheritance_diagram",
+    "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.todo",
+    "sphinx.ext.viewcode",
     "sphinx_automodapi.automodapi",
     "sphinx_automodapi.smart_resolver",
 ]

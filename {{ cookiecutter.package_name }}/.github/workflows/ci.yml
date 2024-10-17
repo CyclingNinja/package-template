@@ -1,4 +1,4 @@
-{% set default_python = '3.12' %}
+{%- set default_python = '3.12' -%}
 name: CI
 
 on:
