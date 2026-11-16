@@ -1,6 +1,10 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
+<<<<<<< HEAD
     rev: v5.0.0
+=======
+    rev: v6.0.0
+>>>>>>> openastronomy/main
     hooks:
       - id: check-case-conflict
       - id: trailing-whitespace
